@@ -11,6 +11,7 @@ namespace SampleGithub.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            var sampleVar = new DateTime();
             return View();
         }
     }
